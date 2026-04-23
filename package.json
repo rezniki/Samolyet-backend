@@ -1,0 +1,14 @@
+﻿{
+  "name": "samolyet-backend",
+  "version": "0.1.0",
+  "description": "Backend for Samolyet dating app MVP",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["dating", "mvp", "express"],
+  "license": "MIT"
+}
